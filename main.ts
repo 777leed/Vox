@@ -70,7 +70,6 @@ class RecordingModal extends Modal {
 
     const recordButton = contentEl.createEl('button', { text: 'Record' });
     recordButton.addClass('record-button');
-    recordButton.style.display = 'block';
     recordButton.style.margin = '0 auto';
 
     let mediaRecorder: MediaRecorder | null = null;
@@ -146,7 +145,7 @@ class RecordingModal extends Modal {
         // Use the output as needed
         // console.log('Python script output:', output);
         this.insertText(output)
-        this.contentEl.createEl('p').setText('NO ERROR');
+        this.contentEl.createEl('p').setText('VOXED ✅');
 
         
         // You can update your UI with the output or perform any other action
@@ -154,7 +153,7 @@ class RecordingModal extends Modal {
 
     } catch (error) {
       console.error('Error saving audio:', error);
-      this.contentEl.createEl('p').setText('Error saving recording.');
+      this.contentEl.createEl('p').setText('Error saving recording ❌');
     }
   }
 

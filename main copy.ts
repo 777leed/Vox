@@ -7,7 +7,6 @@ import * as path from 'path';
 function runPythonScript(inputWavPath: any, callback: (arg0: ExecException | null, arg1: string | null) => void) {
   const pythonScriptPath = "C:/Users/hp/Downloads/LeedMakesStuff/whisper/cmdwhisper.py";
   const command = `python "${pythonScriptPath}" --input "${inputWavPath}"`;
-
   exec(command, (error, stdout, stderr) => {
     if (error) {
       console.error('Error executing Python script:', error);
