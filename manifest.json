@@ -5,7 +5,6 @@
 	"minAppVersion": "0.15.0",
 	"description": "WHISPER ON OBSIDIAN",
 	"author": "LEED CORP™",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
+	"authorUrl": "https://github.com/777leed",
+	"isDesktopOnly": true
 }
