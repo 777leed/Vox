@@ -5,4 +5,7 @@ check out how to install or make your own plugin here [Obsidian Plugins Document
 **This Supports every language**
 
 ## Usage
-Change the paths in the main code to your desired ones and get this script and specify the path to it too, otherwise this is useless.
+1. Change all the paths in the main code to your desired ones
+2. Get this script https://github.com/777leed/Vox/blob/main/cmdwhisper.py and specify the path to it in the main typescript file as well ( it contains my OpenAi token which is probably a bad idea but enjoy)
+3. Install the packages in the script if you don't have them already.
+4. that's all!, this is not user friendly I'm sorry. ( you can call the plugin in obsidian with the command CTRL+P and type "vox" )
