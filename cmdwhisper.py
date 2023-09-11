@@ -34,7 +34,7 @@ def main():
     convert_wav_to_mp3(input_wav_filename, mp3_filename)
 
     # Set your OpenAI API key
-    api_key = "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"
+    api_key = "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"
 
     # Transcribe audio
     transcription = transcribe_audio(api_key, mp3_filename)
